@@ -19,10 +19,11 @@ session.setMaxInactiveInterval(180);
 	<form action="date.jsp" method="post">
 		<p>
 			Eメール：<br> 
-			<input type="text" name="Email" value=<%=Email%>>
+			<input type="text" name="Email" value=<%=Email%>><br>
 			<input type="submit" value="登録"> 
 		</p>
 	</form>
+	<br>
 	<form action="" method="post">
 		<input type=submit value="ログアウト">
 		<%session.invalidate();%>
